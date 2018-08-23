@@ -37,7 +37,8 @@ class LoginController: UIViewController {
     }
     
     func signupPressed() {
-        print("signup pressed")
+        let signUpController = SignUpViewController()
+        present(signUpController, animated: true, completion: nil)
     }
 }
 
